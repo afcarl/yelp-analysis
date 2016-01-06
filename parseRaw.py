@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 from utils import *
+from businessUtils import *
+from categoryUtils import *
+from reviewUtils import *
 from myconfig import *
 import json
 import os
@@ -147,14 +150,17 @@ def main():
 
     # construct the review data
     print 'reading review data'
-    #[business_review_dict, review_dict] = construct_review(path=review_path, ontology_dict=ontology_dict,
-    #                                                       title_dict= title_dict, business_dict=business_dict,
-    #                                                       category_dict=category_dict)
+    '''
+    [business_review_dict, review_dict] = construct_review(path=review_path, ontology_dict=ontology_dict,
+                                                           title_dict= title_dict, business_dict=business_dict,
+                                                           category_dict=category_dict)
     # gather stats about review
-    #dump_review_stats(ontology_dict=ontology_dict, category_dict=category_dict,
-    #                  business_review_dict=business_review_dict, review_dict=review_dict)
+    dump_review_stats(ontology_dict=ontology_dict, category_dict=category_dict,
+                      business_review_dict=business_review_dict, review_dict=review_dict)
+    '''
 
     print 'Done'
 
 if __name__ == '__main__':
+
     main()

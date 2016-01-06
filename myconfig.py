@@ -9,7 +9,6 @@ tip_data = 'yelp_academic_dataset_tip.json'
 ontology_data = 'categories.json'
 
 
-business_summary_csv = 'business_summary.csv'
 attribute_info_csv = 'attribute_info.csv'
 category_info_csv = 'categories_info.csv'
 top_category_info_csv = 'top_categories_info.csv'
